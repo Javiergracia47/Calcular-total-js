@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<section class="producto">
+
+    <div class="imagen" title="porche 911 gts">
+        <img src="assets/img/Porsche-911-GT3-Wallpapers-HD.jpg">
+    </div>
+    <h1>Porsche 911 GTS</h1>
+    <input 
+    type="number"
+    placeholder="Cantidad"
+    id="inputcantidad"
+    />
+    
+    <input type="text" placeholder="Elige un color" id="inputcolor">
+    <span id="price"> Precio: $30.000</span>
+    
+    <div>
+        <button id="buttontotal">Calcular total</button>
+    </div>
+    
+    <section id="preciototal">
+        <p>Total: $ <span id="total">0</span></p>
+        <p>Cantidad: <span id="cantidadid">0</span></p>
+        <p>Color:</p>
+        <div id="colorusuario" class="circle"></div>
+    </section>
+</section>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
